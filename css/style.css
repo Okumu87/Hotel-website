@@ -80,6 +80,22 @@ p {
 .clr {
   clear: both;
 }
+
+.l-heading {
+  font-size: 40px;
+}
+/* 
+padding */
+
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
 /* navbar */
 
 #navbar {
@@ -179,6 +195,27 @@ p {
   margin-bottom: 10px;
 }
 
+/* about page  */
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
 /* footer */
 #main-footer {
   text-align: center;
@@ -186,4 +223,33 @@ p {
   color: #fff;
   padding: 20px;
 }
+
+/* testimonials section */
+
+#testimonials {
+  height: 700px;
+  background: url(../img/nature\ bg.jpg) no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#testimonials .testimonial {
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
 /* file 6 */
